@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	</head>
+	<body>
+		
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th colspan="5"><h1>Biology</h1></th>
+					<th colspan="5"><h1>Chemistry</h1></th>
+					<th colspan="5"><h1>Physics</h1></th>
+				</tr>
+				<tr>
+					<th>Q</th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+					<th class="partition">Q</th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+					<th class="partition">Q</th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+				</tr>
+			</thead>
+			<tbody id="omr">
+				<tr><td><br></td></tr>
+				<tr>
+					<td colspan="15">
+						<form>
+							<label>Questions:</label>
+							<label for="bio">Biology<label>
+							<input id="bio" type="number" name="quantity" min="0" max="90">
+							<label for="chem">Chemistry<label>
+							<input id="chem" type="number" name="quantity" min="0" max="45">
+							<label for="phy">Physics<label>
+							<input id="phy" type="number" name="quantity" min="0" max="45">
+							<button onclick="print()">Submit</button>
+						</form>
+					<td/>
+				</tr>
+				<tr><td><br></td></tr>
+			</tbody>
+		</table>
+		
+		<script src="index.js"></script>
+	</body>
+</html>

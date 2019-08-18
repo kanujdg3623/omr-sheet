@@ -1,0 +1,24 @@
+.partition{
+	border-left:2px solid black;
+}
+th{
+	border-bottom:1px solid black;
+}
+tr{
+	text-align:center;
+}
+
+input[type="button"]{
+	border: 1px solid black;
+	width: 20px;
+	border-radius: 50%;
+	background-color:white;
+}
+
+#submit{
+	height:50px;
+	width:100px;
+	color:white;
+	font-size:20px;
+	background-color:green;
+}
